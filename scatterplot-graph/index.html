@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>Scatterplot Graph</title>
+</head>
+
+<body>
+    <svg id='canvas'>
+        <text id='title' y='30' x='200'>Doping in Professional Bicycle Racing</text>
+    </svg>
+    <div id='legend' style="text-align: center; font-weight: 500;">
+        <div style="font-weight: 600;">YEAR (x) vs TIME (Y)</div> </br />
+        <span class="green-legend" style="color:#4cd137; font-weight:600; text-shadow: 0px 1px 5px black;">Green</span> = Doping Allegation &emsp;|&emsp;
+        <span class="pink-legend" style="color:#f53b57; font-weight:600; text-shadow: 1px 1px 4px black;">Pink</span> = No Doping Allegations
+    </div>
+    <div id='tooltip'>
+    </div>
+</body>
+<script defer src='script.js'></script>
+<script defer src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+
+</html>
